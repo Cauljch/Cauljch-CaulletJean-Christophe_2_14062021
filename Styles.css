@@ -1,0 +1,91 @@
+body
+{
+    font-family: Raleway;
+    src: url(raleway/static/Raleway-Black.ttf) url(raleway/static/Raleway-BlackItalic.ttf) url(raleway/static/Raleway-BoldItalic.ttf) url(raleway/static/Raleway-Bold.ttf) url(raleway/static/Raleway-ExtraLight.ttf) 
+    url(raleway/static/Raleway-ExtraLightItalic.ttf) url(raleway/static/Raleway-Italic.ttf) url(raleway/static/Raleway-Light.ttf) url(raleway/static/Raleway-LightItalic.ttf) url(raleway/static/Raleway-Medium.ttf) 
+    url(raleway/static/Raleway-MediumItalic.ttf) url(raleway/static/Raleway-Regular.ttf) url(raleway/static/Raleway-SemiBold.ttf) url(raleway/static/Raleway-SemiBoldItalic.ttf) url(raleway/static/Raleway-Thin.ttf)
+    url(raleway/static/Raleway-ThinItalic.ttf);
+}
+
+#Recherche
+{
+    display: flex;
+    height: 30px;
+    padding-bottom: 20px;
+}
+
+#mapmaker img
+{
+    max-width: 10%;
+}
+
+button
+{
+    background-color:blue;
+    color: white;
+}
+
+section
+{
+    display: flex;
+    height: 500px;
+}
+
+#Hebergements
+{
+    background-color: rgb(191, 219, 226);
+    width: 65%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+#Hebergements img
+{
+    width: 190px;
+    height: 100px;
+    margin: 30px;
+}
+
+#Populaires
+{
+    background-color: rgb(191, 219, 226);
+    width: 25%;
+    flex-wrap: wrap;
+    
+}
+
+#Populaires img
+{
+    width: 190px;
+    height: 130px;
+    display: block;  
+    align-content: center;
+}
+
+#Populaires h3
+{
+    align-content: center;
+}
+
+h4
+{
+   justify-content: flex-end;
+}
+
+.Boutons_Filtres
+{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 15px;
+    
+}
+
+.Boutons_Filtres div
+{
+    border: solid 2px rgb(191, 219, 226);
+    border-radius: 18px;
+    font-style: initial;
+}   
