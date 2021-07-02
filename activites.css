@@ -7,31 +7,22 @@
     url(raleway/static/Raleway-ThinItalic.ttf);
 }
 
-#map
+#activites
 {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    width: 24px;
+    display: flex;
 }
 
-#rech
+#activites article
 {
-    background-color: blue;
-    color: white;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    margin: auto;
+    flex-direction: row;
+    flex: 1.5;
 }
 
-.filtres button
+#activites img
 {
-    background-color: whitesmoke;
-    border-radius: 15px;
-    height: 28px;
-}
-.filtres button i
-{
-    color: blue;
-    padding-right: 4px;
-    width: max-content;
+    max-block-size: 20%;
+    margin: auto;
+    position: absolute;
 }
 

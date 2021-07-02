@@ -1,0 +1,145 @@
+@font-face
+{
+    font-family: "Raleway";
+    src: url(raleway/static/Raleway-Black.ttf) url(raleway/static/Raleway-BlackItalic.ttf) url(raleway/static/Raleway-BoldItalic.ttf) url(raleway/static/Raleway-Bold.ttf) url(raleway/static/Raleway-ExtraLight.ttf) 
+    url(raleway/static/Raleway-ExtraLightItalic.ttf) url(raleway/static/Raleway-Italic.ttf) url(raleway/static/Raleway-Light.ttf) url(raleway/static/Raleway-LightItalic.ttf) url(raleway/static/Raleway-Medium.ttf) 
+    url(raleway/static/Raleway-MediumItalic.ttf) url(raleway/static/Raleway-Regular.ttf) url(raleway/static/Raleway-SemiBold.ttf) url(raleway/static/Raleway-SemiBoldItalic.ttf) url(raleway/static/Raleway-Thin.ttf)
+    url(raleway/static/Raleway-ThinItalic.ttf);
+}
+
+#hebergements
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 20px 10px;
+    max-height: 500px;
+}
+
+#resultats
+{
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgb(177, 209, 218);
+    flex-basis: 60%;
+}
+
+#resultats h3
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    inline-size: 100%;
+}
+
+#resultats article
+{
+    display: flex;
+    flex-basis: 26%;
+    position: relative;
+    border: solid black;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#resultats img
+{
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 95%;
+    margin: auto;
+    position: relative; z-index: 1;
+}
+
+#resultats div
+{
+    position: absolute; z-index: 2;
+    bottom: 0em;
+    background-color: white;
+    font-size: medium;
+    margin-left: 3px;
+    inline-size: 100%;
+    border-radius: 10px;
+}
+
+article h4
+{
+    background-color: white;
+    inline-size: 400px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+article p
+{
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+.fas
+{
+    color: blue;
+    background-color: white;
+    font-size: smaller;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fas:nth-of-type(5)
+{
+    color: gray;
+}
+
+.fas:nth-of-type(1)
+{
+    padding-left: 10px;
+}
+
+#populaires
+{
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    background-color: rgb(177, 209, 218);
+    border-left: 20px;
+}
+
+#populaires article
+{
+    position: relative;
+    display: flex;
+    max-width: max-content;
+    max-height: max-content;
+    border: solid black;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    margin: auto;
+}
+
+#populaires img
+{
+    max-width: 80%;
+    max-height: 130px;
+    position: relative; z-index: 1;
+    margin: auto;
+    border: blanchedalmond;
+    border-radius: 4px;
+}
+
+#populaires div
+{
+    position: absolute; z-index: 2;
+    left: 40%;
+    background-color: white;
+    font-size: medium;
+    margin-left: 3px;
+    border-radius: 10px;
+}
