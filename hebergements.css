@@ -20,8 +20,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 2fr 2fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
     background-color: rgb(177, 209, 218);
     flex-basis: 60%;
 }
@@ -104,32 +104,36 @@ span
 
 #populaires
 {
-    display: flex;
+    display: grid;
+    grid-template-rows: 15% repeat(3, 25%);
+    grid-row-gap: 15px;
     flex-basis: 30%;
-    flex-direction: column;
     background-color: rgb(177, 209, 218);
     border-left: 20px;
+}
+
+#populaires h3
+{
+    margin-left: 20px;
+    margin-top: 35px;
 }
 
 #populaires article
 {
     position: relative;
     display: flex;
-    max-width: max-content;
-    max-height: max-content;
     border: solid black;
     border-radius: 10px;
     background-color: white;
     overflow: hidden;
-    margin: auto;
 }
 
 #populaires img
 {
-    max-width: 80%;
-    max-height: 130px;
+    width: 275px;
+    height: 117px;
     position: relative; z-index: 1;
-    margin: auto;
+    margin: 4px 0 4px 4px;
     border: blanchedalmond;
     border-radius: 4px;
 }
