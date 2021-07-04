@@ -12,19 +12,22 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin: 20px;
+    max-height: 400px;
 }
     
-
-#activites article
+#activites div
 {
     display: flex;
+    height: 400px;
     border: solid black;
     border-radius: 10px;
-    background-color: white;
     overflow: hidden;
 }
 
-#activites article:nth-child(1)
+#activites div:nth-child(1)
 {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -32,21 +35,21 @@
     grid-row-end: 3;
 }
 
-#activites article:nth-child(2)
+#activites div:nth-child(2)
 {
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-#activites article:nth-child(3)
+#activites div:nth-child(3)
 {
     grid-column-start: 2;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-#activites article:nth-child(4)
+#activites div:nth-child(4)
 {
     grid-column-start: 3;
     grid-column-end: 4;
@@ -54,15 +57,66 @@
     grid-row-end: 3;
 }
 
-#activites article:nth-child(5)
+#activites div:nth-child(5)
 {
     grid-column-start: 4;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
-#activites img
+#vieuxport
 {
-    max-block-size: 100%;
-    position: absolute;
+    background-image: url("../Reservia/images/activites/2_large/vieuxport.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+#pomegues
+{
+    background-image: url("../Reservia/images/activites/2_large/pomegues.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#frioul
+{
+    background-image: url("../Reservia/images/activites/2_large/frioul.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#calanque
+{
+    background-image: url("../Reservia/images/activites/2_large/calanques.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#lagarde
+{
+    background-image: url("../Reservia/images/activites/2_large/lagarde.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#longchamp
+{
+    background-image: url("../Reservia/images/activites/2_large/longchamp.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#vieuxport h4
+{
+    position: absolute; z-index: 2;
+    top: 50px;
+    left: 20px;
+    background-color: white;
+    bottom: 5%;
+}
+
