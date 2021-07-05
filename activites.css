@@ -111,12 +111,11 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-#vieuxport h4
+
+#activites h4
 {
-    position: absolute; z-index: 2;
-    top: 50px;
-    left: 20px;
-    background-color: white;
-    bottom: 5%;
+    position: absolute;  z-index: 1;
+    bottom: 20px;
 }
+
 
