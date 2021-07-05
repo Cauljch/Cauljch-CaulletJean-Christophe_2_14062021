@@ -67,39 +67,40 @@
 #vieuxport
 {
     background-image: url("../Reservia/images/activites/2_large/vieuxport.jpg");
-    background-size: 75% 75%;
+    background-color: white;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: 40%;
 }
 
 #pomegues
 {
     background-image: url("../Reservia/images/activites/2_large/pomegues.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-y: 100%;
 }
 
 #frioul
 {
     background-image: url("../Reservia/images/activites/2_large/frioul.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-y: 100%;
 }
 
 #calanque
 {
     background-image: url("../Reservia/images/activites/2_large/calanques.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: 35%;
 }
 
 #lagarde
 {
     background-image: url("../Reservia/images/activites/2_large/lagarde.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -107,11 +108,43 @@
 #longchamp
 {
     background-image: url("../Reservia/images/activites/2_large/longchamp.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-y: 30%;
 }
 
+#vieuxport h4
+{
+    position: relative;
+    top: 65vh;
+}
 
+#pomegues h4
+{
+    position: relative;
+    top: 30vh;
+}
 
+#frioul h4
+{
+    position: relative;
+    top: 26vh;
+}
 
+#calanque h4
+{
+    position: relative;
+    top: 65vh;
+}
+
+#lagarde h4
+{
+    position: relative;
+    top: 25vh;
+}
+
+#longchamp h4
+{
+    position: relative;
+    top: 26vh;
+}
