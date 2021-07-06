@@ -23,16 +23,34 @@
     margin-bottom: 12px;
 }
 
-#rech
+*.map-marker-alt
+{
+    padding: 0;
+}
+
+input
+{
+    border: solid black;
+    font-size: medium;
+    height: 30px;
+    border-width: 1px;
+}
+#search
 {
     background-color: blue;
     color: white;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-width: 1px;
+    border-left-width: 0;
+    height: 30px;
+    font-size: medium;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .filtres
 {
+    display: inline-flex;
+    justify-content: space-evenly;
     margin-top: 16px;
     font-weight: bold;
 }

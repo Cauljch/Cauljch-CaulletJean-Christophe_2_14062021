@@ -22,9 +22,10 @@
 {
     display: flex;
     max-height: 390px;
-    border: solid white;
+    border: white;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 0 1em gray;
 }
 
 #activites div:nth-child(1)
@@ -87,6 +88,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 100%;
+    z-index: 2;
 }
 
 #calanque
@@ -111,40 +113,66 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 30%;
+    z-index: 2;
 }
 
 #vieuxport h4
 {
     position: relative;
-    top: 65vh;
+    top: 60vh;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    inline-size: 100%;
 }
 
 #pomegues h4
 {
-    position: relative;
-    top: 30vh;
+    position: relative; z-index: 1;
+    top: 29vh;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    inline-size: 100%;
 }
 
 #frioul h4
 {
     position: relative;
-    top: 26vh;
+    top: 21vh;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    inline-size: 100%;
 }
 
 #calanque h4
 {
     position: relative;
-    top: 65vh;
+    top: 60vh;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    inline-size: 100%;
 }
 
 #lagarde h4
 {
-    position: relative;
-    top: 25vh;
+    position: relative; z-index: 1;
+    top: 24vh;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    inline-size: 100%;
 }
 
 #longchamp h4
 {
     position: relative;
-    top: 26vh;
+    top: 21vh;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    inline-size: 100%;
 }
+

@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     margin: 20px;
-    
 }
 
 #resultats
@@ -88,7 +87,7 @@ span
     font-weight: bold;
 }
 
-.fas:not(.filtres)
+#resultats i
 {
     position: relative;
     top: -2em;
