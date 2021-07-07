@@ -15,7 +15,7 @@
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     margin: 20px;
-    height: 400px;
+    height: 390px;
 }
     
 #activites div
@@ -87,7 +87,8 @@
     background-image: url("../Reservia/images/activites/2_large/frioul.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 100%;
+    background-position-y: 60%;
+    margin-top: 20px;
     z-index: 2;
 }
 
@@ -139,7 +140,7 @@
 #frioul h4
 {
     position: relative;
-    top: 21vh;
+    top: 18vh;
     background-color: white;
     padding-top: 10px;
     padding-left: 10px;
