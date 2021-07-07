@@ -11,7 +11,7 @@
 {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px 20px 40px 20px;
 }
 
 #resultats
@@ -43,13 +43,13 @@
     border-radius: 8px;
     background-color: white;
     overflow: hidden;
-
 }
 
 #resultats img
 {
     position: relative; z-index: 1;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin: auto;
     border: solid white;
     width: 90%;
     height: 70%;
@@ -96,6 +96,27 @@ span
     font-size: smaller;
 }
 
+#cannebiere i:nth-of-type(5)
+{
+    color: grey;
+}
+#mouettes i:nth-of-type(5)
+{
+    color: grey;
+}
+#panier i:nth-of-type(5)
+{
+    color: grey;
+}
+#hmer i:nth-of-type(4)
+{
+    color: grey;
+}
+#hmer i:nth-of-type(5)
+{
+    color: grey;
+}
+
 #populaires
 {
     display: grid;
@@ -128,10 +149,10 @@ span
 #populaires img
 {
     width: 70%;
-    height: 95%;
+    height: 98%;
     position: relative; z-index: 1;
     left: -30px;
-    margin: 8px 0 10px 10px;
+    margin: auto;
     border: blanchedalmond;
     border-radius: 8px;
 }
@@ -139,11 +160,12 @@ span
 #populaires div
 {
     position: absolute; z-index: 2;
-    left: 50%;
+    left: 45%;
     background-color: white;
     font-size: medium;
-    margin-left: 3px;
+    padding-left: 15px;
     border-radius: 10px;
+    border-top-left-radius: 0;
 }
 
 #populaires div h4:nth-child(1)
@@ -158,7 +180,29 @@ span
 
 #populaires p
 {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
+#populaires i
+{
+    position: relative;
+    top: -2em;
+    color: blue;
+    background-color: white;
+    font-size: smaller;
+}
+
+#coeureau i:nth-of-type(5)
+{
+    color: grey;
+}
+#bleublanc i:nth-of-type(5)
+{
+    color: grey;
+}
+
+#actmars h3
+{
+    margin-left: 20px;
+}

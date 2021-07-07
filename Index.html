@@ -18,28 +18,36 @@
             <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
             <p>En plein centre ville ou en pleine nature</p>
             <p>
-                <button><i class="fas fa-map-marker-alt"></i></button>
+                <button id="map"><i class="fas fa-map-marker-alt"></i></button>
                 <input type="search" name="q" placeholder="Marseille,France">
                 <button id="search">Rechercher</button>
             </p>
                             
-                <div class="filtres">
-                    <p>Filtres
-                    <button><i class="fas fa-money-bill-wave"></i>Economique</button>
-                    <button><i class="fas fa-universal-access"></i>Familial</button>
-                    <button><i class="fas fa-heart"></i>Romantique</button>
-                    <button><i class="fas fa-dog"></i>Animaux autorisés</button></p>
-                </div>
+            <div class="filtres">
+                <p>Filtres
+                <button><i class="fas fa-money-bill-wave"></i></button>
+                <button>Economique</button>
+                <button><i class="fas fa-universal-access"></i></button>
+                <button>Familial</button>
+                <button><i class="fas fa-heart"></i></button>
+                <button>Romantique</button>
+                <button><i class="fas fa-dog"></i></button></p>
+                <button>Animaux autorisés</button>
+            </div>
 
-                
+            <p> <button id="info"><i class="fas fa-info"></i></button> Plus de 500 logements sont disponibles dans cette ville
+            </p>
+            
             </section>
 
             <section id="hebergements">
                 <section id="resultats">
                     <h3>Hébergements à Marseille</h3>     
                     <article>
+                        <a href="../Reservia/images/hebergements/2_large/cannebiere.jpg" target="_blank">
                         <img src="../Reservia/images/hebergements/2_large/cannebiere.jpg" alt="photo chambre auberge la cannebiere">
-                            <div>
+                        </a>
+                            <div id="cannebiere">
                                 <h4>Auberge la Cannebiere</h4>
                                 <p>Nuit à partir de <span>25€</span></p>
                                 <i class="fas fa-star"></i>
@@ -51,7 +59,9 @@
                     </article>
         
                     <article>
+                        <a href="../Reservia/images/hebergements/2_large/hotelport.jpg" target="_blank">
                         <img src="../Reservia/images/hebergements/2_large/hotelport.jpg" alt="photo chambre hotel du port">
+                        </a>
                             <div>
                                     <h4>Hôtel du port</h4>
                                     <p>Nuit à partir de <span>52€</span></p>
@@ -64,8 +74,10 @@
                     </article>
                     
                     <article>
+                        <a href="../Reservia/images/hebergements/2_large/lesmouettes.jpg" target="_blank">
                         <img src="../Reservia/images/hebergements/2_large/lesmouettes.jpg" alt="photo chambre hotel lesmouettes">
-                            <div>
+                        </a>
+                            <div id="mouettes">
                                 <h4>Hôtel les Mouettes</h4>
                                 <p>Nuit à partir de <span>76€</span></p>
                                 <i class="fas fa-star"></i>
@@ -77,8 +89,10 @@
                     </article>
         
                     <article>
+                        <a href="../Reservia/images/hebergements/2_large/hotelmer.jpg" target="_blank">
                         <img src="../Reservia/images/hebergements/2_large/hotelmer.jpg" alt="photo chambre hotel de la mer">
-                            <div>
+                        </a>
+                            <div id="hmer">
                                 <h4>Hôtel de la mer</h4>
                                 <p>Nuit à partir de <span>46€</span></p>
                                 <i class="fas fa-star"></i>
@@ -90,8 +104,10 @@
                     </article>
         
                     <article>
+                        <a href="../Reservia/images/hebergements/2_large/lepanier.jpg" target="_blank">
                         <img src="../Reservia/images/hebergements/2_large/lepanier.jpg" alt="photo chambre auberge du panier">
-                            <div>
+                        </a>
+                            <div id="panier">
                                 <h4>Auberge le Panier</h4>
                                 <p>Nuit à partir de <span>22€</span></p>
                                 <i class="fas fa-star"></i>
@@ -103,7 +119,9 @@
                     </article>
         
                     <article>
+                        <a href="../Reservia/images/hebergements/2_large/amina.jpg" target="_blank">
                         <img src="../Reservia/images/hebergements/2_large/amina.jpg" alt="photo chambre auberge chez Amina">
+                        </a>
                             <div>
                                 <h4>Auberge chez Amina</h4>
                                 <p>Nuit à partir de <span>96€</span></p>
@@ -113,14 +131,16 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                   </article>
+                    </article>
                     <h4>Afficher plus</h4>
                 </section>
 
                 <section id="populaires">
                     <h3>Les plus populaires</h3>    
                     <article>
+                        <a href="../Reservia/images/hebergements/2_large/soleilmatin.jpg" target="_blank">
                         <img src="../Reservia/images/hebergements/2_large/soleilmatin.jpg" alt="photo chambre hotel soleil du matin">
+                        </a>
                             <div>
                                 <h4>Hôtel le soleil du</h4>
                                 <h4>matin</h4>
@@ -134,8 +154,10 @@
                     </article>
         
                     <article>
+                        <a href="../Reservia/images/hebergements/2_large/coeureau.jpg" target="_blank">
                         <img src="../Reservia/images/hebergements/2_large/coeureau.jpg" alt="photo chambre maison d'hôtes au coeur de l'eau">
-                            <div>
+                        </a>
+                            <div id="coeureau">
                                 <h4>Au coeur de l'eau</h4>
                                 <h4>Chambres d'Hôtes</h4>
                                 <p>Nuit à partir de <span>71€</span></p>
@@ -148,8 +170,10 @@
                     </article>
         
                     <article>
+                        <a href="../Reservia/images/hebergements/2_large/bleublanc.jpg" target="_blank">
                         <img src="../Reservia/images/hebergements/2_large/bleublanc.jpg" alt="photo chambre hotel tout bleu et blanc">
-                            <div>
+                        </a>
+                            <div id="bleublanc">
                                 <h4>Hôtel Tout bleu et</h4>
                                 <h4>Blanc</h4>
                                 <p>Nuit à partir de <span>68€</span></p>
@@ -163,15 +187,13 @@
                 </section>
             </section>
             
-
-            
-            <h3>Activités à Marseille</h3>
+            <span id="actmars"><h3>Activités à Marseille</h3></span> 
             <section id="activites">
 
                 <div id="vieuxport">
                     <h4>Vieux Port</h4>
                 </div>
-                    
+                  
                 <div id="pomegues">
                     <h4>Fort de Pomègues</h4>
                 </div>
