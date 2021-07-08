@@ -133,6 +133,11 @@ input
     width: 8px;
 }
 
+.filtres button:nth-child(2n):hover
+{
+    opacity: 0.3;
+}
+
 #info
 {
     border-radius: 10px;
