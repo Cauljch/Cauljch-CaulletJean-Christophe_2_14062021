@@ -142,11 +142,20 @@ input
 footer
 {
     display: flex;
-    justify-content: flex-start;
-    margin: auto;
+    inline-size: 100%;
+    background-color: rgb(207, 219, 221);
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 footer ul
 {
     list-style-type: none;
+    padding-left: 34px;
 }
+
+footer div
+{
+    margin-right: 300px;
+}
+
