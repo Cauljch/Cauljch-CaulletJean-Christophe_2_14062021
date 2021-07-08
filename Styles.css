@@ -7,6 +7,37 @@
     url(raleway/static/Raleway-ThinItalic.ttf);
 }
 
+header
+{
+    position: relative;
+    display: inline-flex;
+    inline-size: 100%;
+    justify-content: flex-end;
+}
+
+.logo
+{
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    height: 30px;
+    width: 60px;
+    margin-left: 20px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+nav li
+{
+    margin-right: 30px;
+    color: blue;
+}
+
 #haut-de-page
 {
     margin-left: 20px;
@@ -108,4 +139,14 @@ input
     border-width: 1px;
 }
 
+footer
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
 
+footer ul
+{
+    list-style-type: none;
+}
