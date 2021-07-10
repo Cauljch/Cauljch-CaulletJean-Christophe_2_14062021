@@ -28,47 +28,13 @@
     box-shadow: 0 0 1em gray;
 }
 
-#activites div:nth-child(1)
+#vieuxport
 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-}
-
-#activites div:nth-child(2)
-{
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-#activites div:nth-child(3)
-{
-    grid-column-start: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-#activites div:nth-child(4)
-{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-#activites div:nth-child(5)
-{
-    grid-column-start: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
-#vieuxport
-{
     background-image: url("../Reservia/images/activites/2_large/vieuxport.jpg");
-    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 40%;
@@ -76,14 +42,20 @@
 
 #pomegues
 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
     background-image: url("../Reservia/images/activites/2_large/pomegues.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 100%;
+    background-position-y: 50%;
 }
 
 #frioul
 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
     background-image: url("../Reservia/images/activites/2_large/frioul.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,6 +66,10 @@
 
 #calanque
 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
     background-image: url("../Reservia/images/activites/2_large/calanques.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,6 +78,9 @@
 
 #lagarde
 {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
     background-image: url("../Reservia/images/activites/2_large/lagarde.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,7 +99,7 @@
 #vieuxport h4
 {
     position: relative;
-    top: 60vh;
+    top: 320px;
     background-color: white;
     padding-top: 10px;
     padding-left: 10px;
@@ -130,7 +109,7 @@
 #pomegues h4
 {
     position: relative; z-index: 1;
-    top: 29vh;
+    top: 130px;
     background-color: white;
     padding-top: 10px;
     padding-left: 10px;
@@ -140,7 +119,7 @@
 #frioul h4
 {
     position: relative;
-    top: 18vh;
+    top: 97px;
     background-color: white;
     padding-top: 10px;
     padding-left: 10px;
@@ -150,7 +129,7 @@
 #calanque h4
 {
     position: relative;
-    top: 60vh;
+    top: 320px;
     background-color: white;
     padding-top: 10px;
     padding-left: 10px;
@@ -160,7 +139,7 @@
 #lagarde h4
 {
     position: relative; z-index: 1;
-    top: 24vh;
+    top: 120px;
     background-color: white;
     padding-top: 10px;
     padding-left: 10px;
@@ -170,7 +149,7 @@
 #longchamp h4
 {
     position: relative;
-    top: 21vh;
+    top: 117px;
     background-color: white;
     padding-top: 10px;
     padding-left: 10px;

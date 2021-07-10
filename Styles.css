@@ -7,6 +7,8 @@
     url(raleway/static/Raleway-ThinItalic.ttf);
 }
 
+
+
 header
 {
     position: relative;
@@ -32,10 +34,17 @@ nav ul
     margin-right: 20px;
 }
 
-nav li
+nav li a
 {
     margin-right: 30px;
     color: blue;
+    text-decoration: none;
+}
+
+nav li:hover
+{
+    text-decoration: overline;
+    text-decoration-color: blue;
 }
 
 #haut-de-page
@@ -83,7 +92,7 @@ input
 .filtres
 {
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 16px;
     overflow: hidden;
 }
