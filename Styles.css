@@ -7,9 +7,7 @@
     url(raleway/static/Raleway-ThinItalic.ttf);
 }
 
-
-
-header
+header 
 {
     position: relative;
     display: inline-flex;
@@ -68,19 +66,23 @@ nav li:hover
     padding: 0;
     height: 30px;
     width: 30px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 input
 {
-    border: solid black;
+    border: thin grey;
     font-size: medium;
     height: 30px;
-    border-width: 1px;
+    padding: 0;
 }
 #search
 {
     background-color: blue;
     color: white;
+    padding: 0;
     border-width: 1px;
     border-left-width: 0;
     height: 30px;
