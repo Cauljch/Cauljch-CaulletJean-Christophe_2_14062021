@@ -11,74 +11,72 @@
 {
     display: flex;
     justify-content: space-between;
-    margin: 20px 20px 40px 20px;
+    column-gap: 30px;
 }
 
 #resultats
 {
+    min-width: 310px;
+    row-gap: 30px;
+    flex: 65%;
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 32px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.resultats-2 {
     display: grid;
-    background-color: rgb(207, 219, 221);
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 2fr 2fr 1fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    flex-basis: 65%;
-    padding-right: 14px;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px; 
+    row-gap: 30px; 
+    width: 100%;
 }
 
 #resultats h3
 {
-    grid-column-start: 1;
-    grid-column-end: 4;
     margin: 25px 0 0 20px;
 }
 
 #resultats article
 {
-    display: block;
-    position: relative;
-    height: 170px;
-    width: 230px;
-    margin: 5px 5px 5px 20px;
-    border-radius: 8px;
     background-color: white;
-    overflow: hidden;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+    border-radius: 16px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    padding: 3px 7px 3px 3px;
 }
 
 #resultats img
 {
-    position: relative; z-index: 1;
-    border-radius: 10px;
-    margin: auto;
-    border: solid white;
-    width: 90%;
-    height: 70%;
-    left: 8px;
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+    padding: 2px;
 }
 
-#resultats div
+#resultats a
 {
-    position: absolute; z-index: 2;
-    bottom: -1em; 
-    background-color: white;
-    font-size: small;
-    margin-left: 9px;
-    inline-size: 100%;
+    color: black;
+    text-decoration: none;
 }
 
 #resultats h4
 {
     position: relative;
-    top: -1em;
+    top: -14px;
 }
 
-article p
+.resultats-2 p
 {
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
-    top: -2em;
-    margin-top: 1px;
-    margin-bottom: 0;
+    top: -30px;
+    margin: 0 0 10px 0;
     background-color: white;
 }
 
@@ -90,16 +88,13 @@ span
 #resultats i
 {
     position: relative;
-    top: -2em;
+    top: -36px;
     color: blue;
     background-color: white;
     font-size: smaller;
 }
 
-#cannebiere i:nth-of-type(5)
-{
-    color: grey;
-}
+
 #mouettes i:nth-of-type(5)
 {
     color: grey;
@@ -119,78 +114,82 @@ span
 
 #populaires
 {
-    display: grid;
-    background-color: rgb(207, 219, 221);
-    grid-template-rows: 15% repeat(3, 25%);
-    grid-row-gap: 15px;
-    flex-basis: 32%;
-    border-left: 20px;
+    min-width: 310px;
+    row-gap: 30px;
+    flex: 30%;
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 32px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #populaires h3
 {
-    margin-left: 20px;
-    margin-top: 35px;
+    margin: 25px 0 0 20px;
 }
 
-#populaires article
+.populaires-2
 {
-    position: relative;
     display: flex;
-    margin: auto;
-    width: 300px;
-    height: 130px;
-    border: solid white;
-    border-radius: 8px;
-    background-color: white;
-    overflow: hidden;
+    row-gap: 30px;
+    flex-wrap: wrap;
 }
 
-#populaires img
+.populaires-2 article
 {
-    width: 70%;
-    height: 98%;
-    position: relative; z-index: 1;
-    left: -30px;
-    margin: auto;
-    border: blanchedalmond;
-    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 3px 7px 3px 3px;
+    width: 100%;
 }
 
-#populaires div
+
+.populaires-2 img
 {
-    position: absolute; z-index: 2;
-    left: 45%;
+    
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 16px;
+    padding: 2px;
+}
+
+.populaires-2 div
+{
     background-color: white;
-    font-size: medium;
     padding-left: 15px;
     border-radius: 10px;
     border-top-left-radius: 0;
 }
 
-#populaires div h4:nth-child(1)
+.populaires-2 h4:nth-child(1)
 {
     margin-bottom: 0;
+    margin-top: 10px;
 }
 
-#populaires div h4:nth-child(2)
+.populaires-2 h4:nth-child(2)
 {
+    margin-bottom: 0;
     margin-top: 0;
 }
 
-#populaires p
+.populaires-2 p
 {
-    padding-top: 10px;
     padding-bottom: 20px;
 }
 
-#populaires i
+.populaires-2 i
 {
-    position: relative;
-    top: -2em;
     color: blue;
-    background-color: white;
     font-size: smaller;
+    margin-top: 20px;
 }
 
 #coeureau i:nth-of-type(5)

@@ -7,7 +7,7 @@
     url(raleway/static/Raleway-ThinItalic.ttf);
 }
 
-header 
+header
 {
     position: relative;
     display: inline-flex;
@@ -32,10 +32,14 @@ nav ul
     margin-right: 20px;
 }
 
-nav li a
+nav li
 {
     margin-right: 30px;
     color: blue;
+}
+
+nav a
+{
     text-decoration: none;
 }
 
@@ -58,7 +62,6 @@ nav li:hover
 #haut-de-page p
 {
     margin-top: 4px;
-    margin-bottom: 12px;
 }
 
 #map
@@ -66,87 +69,94 @@ nav li:hover
     padding: 0;
     height: 30px;
     width: 30px;
-    border: none;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
 }
 
 input
 {
-    border: thin grey;
+    border: solid black;
     font-size: medium;
     height: 30px;
-    padding: 0;
+    border-width: 1px;
 }
+
 #search
 {
-    background-color: blue;
+    width: 130px;
+    height: 20px;
+    min-width: 50px;
+    min-height: 40px;
+    background-color: #0065fc;
     color: white;
-    padding: 0;
-    border-width: 1px;
-    border-left-width: 0;
-    height: 30px;
-    font-size: medium;
-    border-bottom-right-radius: 8px;
-    border-top-right-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .filtres
 {
-    display: inline-flex;
-    justify-content: space-between;
-    margin-top: 16px;
-    overflow: hidden;
+    margin-bottom: 20px;
 }
 
-.filtres button 
+.filtres span
 {
+    margin-right: 20px;
+}
+
+.recherche input {
+    height: 20px;
+    min-width: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    outline: none;
+}
+
+/*Le l'icon dans le bouton : Je met juste des padding et un background-color et j'arrondi les bords */
+.circle-icon {
+    padding: 1em;
+    border-radius: 50px;
+    color: #0065fc;
+    background-color: #deebff;
+    float: left;
+    align-items: center;
+}
+/*Pour le bouton je supprime jes espaces  et je fais le reste du style */
+.btn {
+    font-weight: bold;
+    border: 2px solid #d9d9d9;
     border-radius: 40px;
-    border: solid grey;
-    height: 40px;
+    display: inline-flex;
+    padding: 0 0 0 0;
     margin-right: 10px;
 }
-
-.filtres i
-{
-    margin: auto;
-    color: blue;
-    font-size: 20px;
-    width: 25px;
+/*J'ai mi le texte dans un p pour l'aligner avec l'icon*/
+.btn p {
+    float: left;
+    padding: 10px 10px 0 10px;
 }
 
-.filtres button:nth-child(1n) 
-{
-    position: relative; z-index: 2;
-    left: 8px;
-    background-color: lightblue;
+.icone-emplacement {
+    display: inline-block;
+    background-color: #f1eeee;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-.filtres button:nth-child(2n) 
-{
-    position: relative; z-index: 1;
-    left: -21px;
-    background-color: white;
-    padding-left: 15px;
-    padding-top: 5px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.filtres button:nth-child(1)
-{
-    margin-left: 20px;
+.recherche {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 *.fa-info
 {
     color: blue;
     width: 8px;
-}
-
-.filtres button:nth-child(2n):hover
-{
-    opacity: 0.3;
 }
 
 #info
@@ -157,21 +167,19 @@ input
 
 footer
 {
-    display: flex;
-    inline-size: 100%;
-    background-color: rgb(207, 219, 221);
-    padding-top: 20px;
-    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    width: 100%;
 }
 
 footer ul
 {
     list-style-type: none;
-    padding-left: 34px;
 }
 
-footer div
+h3
 {
-    margin-right: 300px;
+    font-size: 25px;
 }
-
