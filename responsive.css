@@ -1,6 +1,5 @@
 @media screen and (max-width: 480px)
 {
-    
     html { margin-left: 30px;
            margin-right: 30px; }
     #haut-de-page h3 { font-size: 28px; }
@@ -9,5 +8,5 @@
                grid-template-columns: repeat(2, 1fr);
                grid-template-rows: repeat(4, 1fr);
                overflow: visible; }
-               
+    /*.icon-recherche:before { display: none; */         
 }

@@ -11,8 +11,7 @@
 {
     display: flex;
     height: 390px;
-    justify-content: space-around;
-    margin: 0 0 0 30px;
+    justify-content: space-between;
 }
 
 .act-1
@@ -21,7 +20,7 @@
     width: 49%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 55% 10% 35%;
-    column-gap: 15px;
+    column-gap: 30px;
 }
 
 .act-2
@@ -30,18 +29,19 @@
     width: 49%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 45% 10% 45%;
-    column-gap: 15px;
+    column-gap: 30px;
 }
     
 #activites div
 {
     display: flex;
     max-height: 390px;
-    width: 90%;
+    width: 100%;
     border: white;
     border-radius: 16px;
     box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
     overflow: hidden;
+    filter: brightness(110%);
 }
 
 #vieuxport
@@ -49,7 +49,6 @@
     grid-area: 1 / 1 / 4 / 2;
     background-image: url("../Reservia/images/activites/2_large/vieuxport.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position-x: 50%;
 }
 
@@ -58,7 +57,6 @@
     grid-area: 1 / 2 / 2 / 2;
     background-image: url("../Reservia/images/activites/2_large/pomegues.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position-y: 50%;
 }
 
@@ -67,7 +65,6 @@
     grid-area: 3 / 2 / 4 / 2;
     background-image: url("../Reservia/images/activites/2_large/frioul.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position-y: 60%;
 }
 
@@ -76,7 +73,6 @@
     grid-area: 1 / 1 / 4 / 2;
     background-image: url("../Reservia/images/activites/2_large/calanques.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position-x: 48%;
 }
 
@@ -85,7 +81,6 @@
     grid-area: 1 / 2 / 2 / 2;
     background-image: url("../Reservia/images/activites/2_large/lagarde.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -94,7 +89,6 @@
     grid-area: 3 / 2 / 4 / 2;
     background-image: url("../Reservia/images/activites/2_large/longchamp.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position-y: 30%;
 }
 
