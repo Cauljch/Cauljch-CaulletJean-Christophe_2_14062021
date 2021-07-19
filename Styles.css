@@ -40,12 +40,18 @@ nav ul
 nav li
 {
     margin-right: 30px;
-    color: blue;
 }
 
 nav a
 {
     text-decoration: none;
+    color: blue;
+}
+
+nav span
+{
+    color: black;
+    font-style: normal;
 }
 
 nav li:hover

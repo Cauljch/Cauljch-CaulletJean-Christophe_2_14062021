@@ -80,7 +80,7 @@
     background-color: white;
 }
 
-span
+#haut-de-page span, #resultats span, #populaires span
 {
     font-weight: bold;
 }
@@ -94,22 +94,28 @@ span
     font-size: smaller;
 }
 
+#cannebiere i:nth-of-type(5)
+{
+    color: silver;
+}
 
 #mouettes i:nth-of-type(5)
 {
-    color: grey;
+    color: silver;
 }
 #panier i:nth-of-type(5)
 {
-    color: grey;
+    color: silver;
 }
+
 #hmer i:nth-of-type(4)
 {
-    color: grey;
+    color: silver;
 }
+
 #hmer i:nth-of-type(5)
 {
-    color: grey;
+    color: silver;
 }
 
 #populaires
@@ -194,10 +200,11 @@ span
 
 #coeureau i:nth-of-type(5)
 {
-    color: grey;
+    color: silver;
 }
+
 #bleublanc i:nth-of-type(5)
 {
-    color: grey;
+    color: silver;
 }
 
