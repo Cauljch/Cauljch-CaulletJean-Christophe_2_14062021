@@ -116,6 +116,11 @@ input
     margin-right: 20px;
 }
 
+.filtres button:hover
+{
+    transform: scale(1.5);
+}
+
 .recherche input {
     height: 20px;
     min-width: 20px;
