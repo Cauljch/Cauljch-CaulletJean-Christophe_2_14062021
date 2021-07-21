@@ -1,12 +1,24 @@
 @media screen and (max-width: 480px)
 {
-    header { display: grid; 
-             grid-template: "a a"; }
+    header { display: block; }
+    .logo { position: relative;
+            padding-top: 10px;   
+            height: 50px;
+            width: 90px; }    
     #haut-de-page h3 { font-size: 28px; }
-    nav li { display: flex; 
-          flex-direction: row-reverse; }
-    nav li:nth-child(3) { flex: 1; 
-                           order: 1; }    
+    nav ul { padding-left: 30px; }
+    nav li { font-size: larger; 
+             font-weight: 600;
+             width: 160px; 
+             margin-right: 0;
+             text-align: center; }
+    nav ul li:hover { border-bottom: solid 2px blue;
+                   border-top: solid 2px transparent;
+                   padding-bottom: 10px; }   
+    nav li:nth-child(2) { font-weight: normal; }
+    nav li:nth-child(3) { position: absolute;
+                          right: 20px; 
+                          top: 20px; }    
     .filtres { display: grid; 
                grid-template: "a a" ; 
                justify-content: left; }    

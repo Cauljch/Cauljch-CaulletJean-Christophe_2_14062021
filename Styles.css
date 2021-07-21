@@ -54,10 +54,11 @@ nav span
     font-style: normal;
 }
 
-nav li:hover
+nav ul li:hover
 {
-    text-decoration: overline;
-    text-decoration-color: blue;
+    border-bottom: solid 2px transparent;
+    border-top: solid 2px blue;
+    padding-top: 30px;
 }
 
 #haut-de-page h3
