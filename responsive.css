@@ -39,6 +39,8 @@
                    font-size: 10px; }
     #resultats img { height: 120px; }
     #populaires { border-radius: 20px 20px 0 0; }   
+    #populaires h3 { margin-left: 0; }
+    #legende i { padding-left: 55px; }
     #activites { flex-flow: column wrap;
                  height: 150%; }
     .act-1 { display: flex;
