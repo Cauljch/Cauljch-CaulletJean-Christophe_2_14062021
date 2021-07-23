@@ -40,18 +40,25 @@ nav ul
 nav li
 {
     margin-right: 30px;
-    color: blue;
 }
 
 nav a
 {
     text-decoration: none;
+    color: blue;
 }
 
-nav li:hover
+nav span
 {
-    text-decoration: overline;
-    text-decoration-color: blue;
+    color: black;
+    font-style: normal;
+}
+
+nav ul li:hover
+{
+    border-bottom: solid 2px transparent;
+    border-top: solid 2px blue;
+    padding-top: 30px;
 }
 
 #haut-de-page h3
@@ -108,6 +115,11 @@ input
 .filtres span
 {
     margin-right: 20px;
+}
+
+.filtres button:hover
+{
+    transform: scale(1.5);
 }
 
 .recherche input {
