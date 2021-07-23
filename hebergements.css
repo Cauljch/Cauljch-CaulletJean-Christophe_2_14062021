@@ -50,6 +50,11 @@
     padding: 3px 7px 3px 3px;
 }
 
+#resultats article div
+{
+    margin-left: 10px;
+}
+
 #resultats img
 {
     width: 100%;
