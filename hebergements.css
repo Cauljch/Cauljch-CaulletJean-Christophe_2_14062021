@@ -1,12 +1,3 @@
-@font-face
-{
-    font-family: "Raleway";
-    src: url(raleway/static/Raleway-Black.ttf) url(raleway/static/Raleway-BlackItalic.ttf) url(raleway/static/Raleway-BoldItalic.ttf) url(raleway/static/Raleway-Bold.ttf) url(raleway/static/Raleway-ExtraLight.ttf) 
-    url(raleway/static/Raleway-ExtraLightItalic.ttf) url(raleway/static/Raleway-Italic.ttf) url(raleway/static/Raleway-Light.ttf) url(raleway/static/Raleway-LightItalic.ttf) url(raleway/static/Raleway-Medium.ttf) 
-    url(raleway/static/Raleway-MediumItalic.ttf) url(raleway/static/Raleway-Regular.ttf) url(raleway/static/Raleway-SemiBold.ttf) url(raleway/static/Raleway-SemiBoldItalic.ttf) url(raleway/static/Raleway-Thin.ttf)
-    url(raleway/static/Raleway-ThinItalic.ttf);
-}
-
 #hebergements
 {
     display: flex;
