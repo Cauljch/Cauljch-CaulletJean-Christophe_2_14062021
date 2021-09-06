@@ -66,7 +66,7 @@
                 grid-template-columns: repeat(3, 31%); }
     #function .choice { width: 80%; 
                         height: 40%; }
-    #function .number { width: 10%;
+    #function .number { width: 12%;
                         right: 6px; }
     #function i { margin-left: 10px;
                   margin-right: 10px; }
@@ -75,35 +75,38 @@
     #restos { display: grid; 
               grid-template-columns: 50% 50%;
               grid-template-rows: 16% 42% 42%; }
-    #restos img { object-position: 0 -50px; }
     #restos #img-lne { object-position: 0 -150px; }
     #restos h2 { grid-area: 1 / 1 / 2 / 3; 
                  width: 100%;
                  text-align: center; }
     #restos div h3 { padding-top: 10px; }
-    #restos .new { right: -250px; }
-    #restos .fa-heart { left: 290px; }
-    #restos .hoverheart { left: 261px; }
-    footer { text-align: justify; }
-        #user-contact h2 { text-align: justify;
-                           margin-left: 20px; }
-        .fa-utensils, .fa-hands-helping { text-align: left; }
-    footer #partner + p { margin-left: 20px; }
-    footer p:nth-last-child(1) { margin-left: 20px; }
-    article #entrees, article #plats, article #desserts { width: 90%;
-                                                          margin: auto; }
-    article h1 { margin-left: 60px;
-                 width: 80%; }
+    #restos .new { right: -180px; }
+    #restos .fa-heart { left: 230px; }
+    #restos .hoverheart { left: 201px; }
+    footer { text-align: center; }
+    article #plats, article #desserts { display: grid; 
+                                        grid-template-columns: repeat(3, 1fr); 
+                                        grid-template-rows: repeat(2, 1fr); }
+    article #img-lne { object-position: 0px -360px; }
+    article #entrees { display: grid;
+                       grid-template-columns: repeat(2, 1fr);
+                       grid-template-rows: repeat(3, 1fr);
+                       row-gap: 10px; }
+    article h1 { text-align: left; }
     article .fa-heart { font-size: 24px; }
-    article .menu-choice { grid-area: 1 / 1 / 2 / 4; }
+    article #entrees .menu-choice { grid-area: 1 / 1 / 2 / 3; }
+    article #plats .menu-choice, article #desserts .menu-choice { grid-area: 1 / 1 / 2 / 4; }
                 h3 { margin: auto; }
-    .btn-menu { grid-template-columns: 88% 12%; }
+    .btn-menu { width: 90%; 
+                margin: auto; }
     .btn-menu span { padding-left: 8px; }
     .btn-menu:hover span { z-index: 2; 
-                           transform: translateX(-50px); }
+                           transform: translateX(-36px); }
     .btn-menu:hover p { z-index: 1; 
+                        opacity: 0.2;
                         overflow: hidden; }
-    .btn-menu:hover .fa-check-circle { transform: rotateX(-360deg) translateX(-28px); }
+    .btn-menu:hover .fa-check-circle { transform: rotateX(-360deg) translateX(-12px); }
+    .btn { margin-top: 40px; }
 }
 
 @media screen and (width: 1024px) 
